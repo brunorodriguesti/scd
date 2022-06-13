@@ -1,0 +1,111 @@
+body{
+    background-color: #a4d7ea;
+}
+/*As classes*/
+.container{
+    width: 55%;
+    background-color: #F8F8FF;
+    margin: -20px auto 0px auto;
+    box-shadow: 3px 3px 1px 0px #00000070;
+    padding: 10px 10px 10px 10px; 
+    margin-top: 1%;
+}
+.logo{
+    position: fixed;
+    width: 16%;
+    left: 3%;
+}
+.vertical-menu {
+    width: 10%;
+    padding: 15px;
+    position: fixed;
+    top: 35%;
+    left: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vertical-menu a {
+    background-color: #36a7e1;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin: 2%;
+    border-radius: 10px;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+}
+.vertical-menu a:hover {
+    background-color: #7f669f;
+    color: black;
+}
+.rodape{
+    color: #7f669f;
+    text-align: center;
+    font-size: small;
+}
+.rodape #contatos{
+    text-align: left;
+    text-align: center;
+}
+/*Inicio @Midia*/
+@media screen and(min-width:320px) and (max-width:768px){
+    body{
+        background-color: #a4d7ea;
+    }
+    /*As classes*/
+    .container{
+        width: 55%;
+        background-color: #F8F8FF;
+        margin: -20px auto 0px auto;
+        box-shadow: 3px 3px 1px 0px #00000070;
+        padding: 10px 10px 10px 10px; 
+        margin-top: 1%;
+    }
+    .logo{
+        position: fixed;
+        width: 16%;
+        left: 3%;
+    }
+    .vertical-menu {
+        width: 10%;
+        padding: 15px;
+        position: fixed;
+        top: 35%;
+        left: 5%;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .vertical-menu a {
+        background-color: #36a7e1;
+        color: #ffffff;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        margin: 2%;
+        border-radius: 10px;
+        transition: background-color 1s;
+        -webkit-transition: background-color 1s;
+        -o-transition: background-color 1s;
+        -ms-transition: background-color 1s;
+        -moz-transition: background-color 1s;
+    }
+    .vertical-menu a:hover {
+        background-color: #7f669f;
+        color: black;
+    }
+    .rodape{
+        color: #7f669f;
+        text-align: center;
+        font-size: small;
+    }
+    .rodape #contatos{
+        text-align: left;
+        text-align: center;
+    }
+}
