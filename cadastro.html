@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de Apoio Bem Viver</title>
+    <link rel="stylesheet" type="text/css" href="_css/reset.css">
     <link rel="stylesheet" type="text/css" href="_css/cadastro.css">
-    <link rel="stylesheet icon" href="_imagens/Capa BemViver - icone(color).png"/>
+    <link rel="stylesheet icon" href="_imagens/Capa BemViver - icone(color).png" />
 </head>
+
 <body>
-    <div id="">
-    <img class="logo" src="_imagens/Capa BemViver.png">
+    <div class="vertical-menu">
+        <img class="logo" src="_imagens/Capa BemViver.png">
+        <a href="index.html">Inicio</a>
+        <a href="registro.html">Registro</a>
+        <a href="pesquisa.html">Pesquisar</a>
     </div>
     <div class="container">
         <div>
             <form>
                 <h3>Cadastro de Doador</h3>
-                <a>Nome: </a><input type="text" name="email" placeholder="Informar nome completo"/>
-                <a>Aniversariante: </a><input type="date" id="diaa" name="diaa">
-                <a>End. Comercial: </a><input type="text" name="senha" placeholder="Informar endereço"/>
-                <a>End. Residencial: </a><input type="text" name="senha" placeholder="Informar endereço"/>
-                <a>Tel. Fixo: </a><input type="text" name="senha" placeholder="Informar telefone para contato"/>
-                <a>Celular: </a><input type="text" name="senha" placeholder="Informar telefone para contato"/>
-                <a>E-mail: </a><input type="text" name="senha" placeholder="Informar e-mail para contato"/>
-                <input type="submit" name="acao" placeholder="Acessar"/>
+                <a>Nome: </a><input type="text" name="nome" placeholder="Informar nome completo" required />
+                <a>CPF: </a><input type="number" name="senha" placeholder="Informar o CPF" required />
+                <a>Data de nascimento: </a><input type="date" id="dia" name="calendario" required />
+                <a>End. Comercial: </a><input type="text" name="endComercial" placeholder="Informar endereço" required />
+                <a>End. Residencial: </a><input type="text" name="endResidencial" placeholder="Informar endereço" required />
+                <a>Tel. Fixo: </a><input type="number" name="numFixo" placeholder="Informar telefone para contato"required />
+                <a>Tel. Celular: </a><input type="number" name="numCelular" placeholder="Informar telefone para contato"required />
+                <a>E-mail: </a><input type="text" name="e-mail" placeholder="Informar e-mail para contato" required />
+                <input type="submit" name="acao" placeholder="Acessar" />
             </form>
         </div>
     </div>
 </body>
+
 </html>

@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Apoio Bem Viver</title>
+    <link rel="stylesheet" type="text/css" href="_css/reset.css">
+    <link rel="stylesheet" type="text/css" href="_css/teste.css">
+    <link rel="stylesheet icon" href="_imagens/Capa BemViver - icone(color).png" />
 </head>
+
 <body>
-    <h1> Arquivo de Teste</h1>
+
+    <div class="vertical-menu">
+        <img class="logo" src="_imagens/Capa BemViver.png">
+        <a href="input.html">Registro</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="pesquisa.html">Pesquisar</a>
+    </div>
+    <div class="container">
+        <div>
+            <form>
+                <h3>Registro de Doação</h3>
+                <a>CPF: </a><input type="number" name="numerico" placeholder="Informar CPF " required />
+                <a>Nome: </a><input type="text" name="email" placeholder="Informar nome completo" required />
+                <a>Valor: </a><input type="number" name="senha" placeholder="Informar valor doado" required />
+                <a>Belo Horizonte: </a><input type="date" id="diaa" name="diaa" required>
+                <input type="submit" name="acao" placeholder="Acessar" />
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>

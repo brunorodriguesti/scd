@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa de Apoio Bem Viver</title>
     <link rel="stylesheet" type="text/css" href="_css/reset.css">
-    <link rel="stylesheet" type="text/css" href="_css/pesquisa.css">
+    <link rel="stylesheet" type="text/css" href="_css/registro.css">
     <link rel="stylesheet icon" href="_imagens/Capa BemViver - icone(color).png" />
 </head>
 
@@ -15,14 +15,17 @@
         <img class="logo" src="_imagens/Capa BemViver.png">
         <a href="index.html">Inicio</a>
         <a href="cadastro.html">Cadastro</a>
-        <a href="registro.html">Registro</a>
+        <a href="pesquisa.html">Pesquisar</a>
     </div>
     <div class="container">
         <div>
             <form>
-                <h3>Pesquisa de Doadores</h3>
-                <input type="text" name="busca" placeholder="Pesquisar Doador, Data, CPF" required />
-                <button id="botao"><b>Filtrar</b></button>
+                <h3>Registro de Doação</h3>
+                <a>CPF: </a><input type="number" name="numerico" placeholder="Informar CPF " required />
+                <a>Nome: </a><input type="text" name="email" placeholder="Informar nome completo" required />
+                <a>Valor: </a><input type="number" name="senha" placeholder="Informar valor doado" required />
+                <a>Belo Horizonte: </a><input type="date" id="diaa" name="diaa" required>
+                <input type="submit" name="acao" placeholder="Acessar" />
             </form>
         </div>
     </div>
